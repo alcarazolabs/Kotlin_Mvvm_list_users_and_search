@@ -1,0 +1,103 @@
+# Registrar estos usuarios utilizando el endpoit api/user/register
+> show collections
+users
+> db.users.find().pretty()
+{
+        "_id" : ObjectId("607b077a1e897f20744d3c92"),
+        "name" : "Freddy Alcarazo",
+        "email" : "creatorpart@gmail.com",
+        "image" : "https://mtbifiction.files.wordpress.com/2015/09/interstellar05.jpg",
+        "phone" : "932818321",
+        "password" : "$2a$10$vJmmqtA9/NmtAzRv8yTkY.eTe3Em4t1iRo/gnJSBQnQteowbY5P/K",
+        "created_at" : ISODate("2021-04-17T16:06:18.340Z"),
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("607b08031e897f20744d3c93"),
+        "name" : "Sam Sanders",
+        "email" : "sam202@gmail.com",
+        "image" : "https://cdn.cienradios.com/wp-content/uploads/sites/3/2019/09/adam-sandler.jpg",
+        "phone" : "833726321",
+        "password" : "$2a$10$KAzy3pUoVOImvLjhjl0KQuBMzI38GH.5tv89cyMOiU1mrpxx5ljwm",
+        "created_at" : ISODate("2021-04-17T16:08:35.484Z"),
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("607b088a1e897f20744d3c94"),
+        "name" : "Elon Musk",
+        "email" : "elonm@spacex.com",
+        "image" : "https://lecturaagil.com/wp-content/uploads/2019/01/elon-300x300.jpeg",
+        "phone" : "943818321",
+        "password" : "$2a$10$Z0DbGKimzUeuMMji2yNDgecjdi7OxHwgSSiH2Cq8IB6g2haHkdeXa",
+        "created_at" : ISODate("2021-04-17T16:10:50.295Z"),
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("607b08f11e897f20744d3c95"),
+        "name" : "Jack Ma",
+        "email" : "jackm@alibaba.com",
+        "image" : "https://static.independent.co.uk/s3fs-public/thumbnails/image/2014/10/31/22/Jack-Ma.jpg",
+        "phone" : "932878321",
+        "password" : "$2a$10$/Ni9JDaCyXv02hpqSeU5P..etijxSixdk2lJ7w99BHcs8gpwFZsEm",
+        "created_at" : ISODate("2021-04-17T16:12:33.208Z"),
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("607b09491e897f20744d3c96"),
+        "name" : "Jackie Chan",
+        "email" : "jackiech@jackch.com",
+        "image" : "https://cosasdejackiechan.files.wordpress.com/2016/09/jackie-chan-celebhealthy_com.jpg",
+        "phone" : "843918342",
+        "password" : "$2a$10$CayxG0ga/lLx0Fyw8vst7Ow1zk0cMnevUtC7ldeCBtyCZg3MWcidu",
+        "created_at" : ISODate("2021-04-17T16:14:01.951Z"),
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("607b09c31e897f20744d3c97"),
+        "name" : "Andrew Ng",
+        "email" : "andrewng@coursera.com",
+        "image" : "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-instructor-photos.s3.amazonaws.com/2a/6192a04f1311e7ba12057425631cbc/AndrewNg-Headshot.jpg",
+        "phone" : "954834221",
+        "password" : "$2a$10$ITY0P6gj1LRB51i/zGtdluv2d6Cen/Z5F3cvqA7MEJ7uVVImdic3G",
+        "created_at" : ISODate("2021-04-17T16:16:03.669Z"),
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("607b0a401e897f20744d3c98"),
+        "name" : "Albert Einstein",
+        "email" : "albert@gmail.com",
+        "image" : "https://static.dw.com/image/1421414_4.jpg",
+        "phone" : "872726521",
+        "password" : "$2a$10$VVRPMN1tjAhW18HcxPBMw.Hin2eUqO7UFCw8rukfMFj43wm4hdQRy",
+        "created_at" : ISODate("2021-04-17T16:18:08.833Z"),
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("607b0ac51e897f20744d3c99"),
+        "name" : "Vladimir Putin",
+        "email" : "zarvladi@gmail.com.ru",
+        "image" : "https://www.informador.mx/__export/1616083988668/sites/elinformador/img/2021/03/18/russian_president_puti_x2816894x_efe_crop1616083987642.jpg_1034156727.jpg",
+        "phone" : "984837421",
+        "password" : "$2a$10$fFen3EgX12QDCbeFwUuXl.rRBiejWBfNJK00rOpyRGSBdloPwXR.K",
+        "created_at" : ISODate("2021-04-17T16:20:21.696Z"),
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("607b0b651e897f20744d3c9a"),
+        "name" : "Usain Bolt",
+        "email" : "usainb@gmail.com.ja",
+        "image" : "https://www.biografiasyvidas.com/biografia/b/fotos/bolt_3.jpg",
+        "phone" : "947778865",
+        "password" : "$2a$10$7K19tyFlyHGvrV42pODnSeVpQvXByfskXOtYcPrQTmXAcDtdl2zS.",
+        "created_at" : ISODate("2021-04-17T16:23:01.461Z"),
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("607b0bf91e897f20744d3c9b"),
+        "name" : "Antonio Banderas",
+        "email" : "antoniob@gmail.com",
+        "image" : "https://viajarconmusica.com/wp-content/uploads/2020/08/antonio-banderas.jpg",
+        "phone" : "943928213",
+        "password" : "$2a$10$adlstUnNSL1FOHrEQYDcPOy/sWGUm9h3Q0qSLCjQulaY8OUsnRwJu",
+        "created_at" : ISODate("2021-04-17T16:25:29.577Z"),
+        "__v" : 0
